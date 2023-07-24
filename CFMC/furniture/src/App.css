@@ -1,0 +1,58 @@
+
+
+
+.container-wrapper {
+    max-width: 1140px;
+    margin: auto;
+}
+.container-row {
+margin: 0 -16px
+}
+.card-footer {
+  padding: 0px 50px 16px;
+}
+.card-wrapper, .container-rard {
+  box-shadow: 0px 0 18px rgb(0 0 0 / 10%);
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-wrapper a img {
+  border-radius: 10px;
+}
+.left-images .card-wrapper > a {
+  overflow: hidden;
+  height: calc(100% - 270px);
+  display: block;
+}
+.left-images .card-wrapper a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right-images .card-footer {
+  padding: 15px 30px 15px;
+}
+.about-section, .Capabilities-section {
+padding: 100px 0;
+}
+.container-wrapper{
+  max-width: 1167px;
+}
+.banner-section {
+  background-attachment: fixed;
+    background-position: bottom !important;
+    height: 80vh !important;
+}
+.banner-section h1 {
+  font-size: 2.55rem !important;
+  line-height: 3rem !important;
+}
+.container-row > div {
+padding: 20px;
+}
+.ant-carousel .slick-slider .slick-track, .ant-carousel .slick-slider .slick-list {
+    transform: translate3d(0, 0, 0) !important;
+    touch-action: pan-y;
+}
